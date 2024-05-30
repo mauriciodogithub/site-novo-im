@@ -1,0 +1,42 @@
+.img-nav {
+  width: 150%;
+  margin: auto;
+}
+
+* {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.container {
+  max-width: 140px !important;
+  width: 140px;
+  margin: 0;
+  text-align: center;
+}
+
+.links-nav {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.collapse {
+  margin: auto !important;
+  flex-grow: 0 !important;
+}
+
+.btn {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+nav {
+  max-height: 140px !important;
+  min-height: 50px !important;
+}
+
+.nav-link {
+  padding: 20px !important;
+}
