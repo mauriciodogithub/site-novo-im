@@ -26,9 +26,13 @@
   flex-grow: 0 !important;
 }
 
+.bt-meu {
+  height: 45px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .btn {
-  padding-top: 1% !important;
-  padding-bottom: 1% !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
 }
@@ -85,7 +89,7 @@
 .img-dashboard {
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 65%;
   z-index: 0;
 }
 
@@ -100,9 +104,6 @@
     border-radius: 20px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.204);
   }
-}
-
-@media (min-width: 320px) {
   .img-carrinhos {
     z-index: 1;
     height: auto;
@@ -113,4 +114,100 @@
     border-radius: 20px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.204);
   }
+}
+
+.background-azul {
+  background-color: #0b163f;
+  margin-top: -450px;
+  height: 1500px;
+}
+
+.sub-background-azul {
+  margin-top: -1030px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.text-sub {
+  font-size: 23px;
+  font-weight: 600;
+  position: relative;
+}
+
+.paragrafos-img {
+  color: #c9d5e1;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex;
+  max-width: 80%;
+  padding-top: 3%;
+  position: relative;
+  flex-direction: column; /* As divs estarão uma embaixo da outra por padrão */
+  align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+@media (min-width: 1024px) {
+  .paragrafos-img {
+    flex-direction: row; /* As divs estarão em linha em telas maiores que 1024px */
+    align-items: flex-start; /* Ajusta o alinhamento vertical se necessário */
+  }
+}
+
+.paragrafos-1 {
+  font-weight: lighter;
+}
+
+.creditos-1 {
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.creditos-2 {
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.creditos-3 {
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.links-saiba-mais {
+  text-decoration: none;
+  color: #ffb116;
+  font-weight: 500;
+  padding-top: 55%;
+}
+
+.produto-certo {
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.div-h1-pc {
+  padding-top: 10%;
+  padding-left: 10%;
+  max-width: 40%;
+}
+
+.div-h1-pc > h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #071c4d;
+}
+
+.div-p-pc {
+  padding-left: 150px;
+  max-width: 53%;
+}
+.div-p-pc > p {
+  font-weight: 500;
+  color: #52525c;
+}
+
+.produto-certo > img {
 }
