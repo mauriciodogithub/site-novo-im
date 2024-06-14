@@ -4,19 +4,19 @@
   font-weight: bold;
 }
 
-/* Imagem Navegação */
-.img-nav {
-  width: 150%;
-  margin: auto;
-  padding-right: 30%;
+nav {
+  margin: 0;
 }
 
-/* Container */
-.container {
-  max-width: 140px !important;
-  width: 140px;
-  margin: 0;
-  text-align: center;
+/* Imagem Navegação */
+.img-nav {
+  width: 150px;
+  margin: auto;
+}
+
+.navbar-nav {
+  white-space: nowrap;
+  align-content: end;
 }
 
 /* Links Navegação */
@@ -25,22 +25,25 @@
   list-style-type: none;
 }
 
+.container-fluid {
+  display: flex;
+  justify-content: center !important;
+}
+
 /* Collapse */
 .collapse {
-  margin: auto !important;
   flex-grow: 0 !important;
 }
 
 /* Botões */
 .bt-meu {
   height: 45px;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .btn {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+  padding-left: auto !important;
+  padding-right: auto !important;
+  margin: 0 !important;
 }
 
 .nav-link {
@@ -55,10 +58,11 @@
 
 #primeiro-titulo {
   font-family: "Poppins";
+  margin-top: 50px;
   font-weight: bold;
-  font-size: 45px;
   color: #071c4d;
   letter-spacing: -2px;
+  text-align: center;
 }
 
 /* Estilos para Telas Menores */
@@ -192,11 +196,10 @@
     padding-left: 10%;
   }
 
-  .div-h1-pc > h1 {
+  .h1-pc {
     font-weight: bold;
     margin-bottom: 30px;
     color: #071c4d;
-    max-width: 45%;
   }
 
   .div-p-pc {
@@ -286,8 +289,16 @@
   margin-top: 100px;
 }
 
-.div-p-pc > p {
+.p-pc {
   font-weight: 500;
   color: #52525c;
   max-width: 95%;
+}
+
+.pc {
+  background-color: #fff;
+}
+
+.img-4 {
+  border-radius: 20px;
 }
