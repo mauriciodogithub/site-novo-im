@@ -5,18 +5,12 @@
 }
 
 nav {
-  margin: 0;
+  z-index: 1000;
 }
 
 /* Imagem Navegação */
 .img-nav {
   width: 150px;
-  margin: auto;
-}
-
-.navbar-nav {
-  white-space: nowrap;
-  align-content: end;
 }
 
 /* Links Navegação */
